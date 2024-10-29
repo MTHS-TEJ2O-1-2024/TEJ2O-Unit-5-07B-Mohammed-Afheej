@@ -4,7 +4,6 @@
 * Created on: Oct 2024
 * This program allows the sorvo to move back and forth
 */
-
 // variables
 const servoNumber1 = robotbit.Servos.S1
 
@@ -16,8 +15,7 @@ input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
     basic.showString('30')
     basic.showIcon(IconNames.SmallSquare)
-    basic.clearScreen()
-    basic.showIcon(IconNames.Happy)
+    basic.clearScreen()                                              
 })
 
 input.onButtonPressed(Button.B, function () {
