@@ -26,3 +26,5 @@ input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
     basic.showIcon(IconNames.Happy)
 })
+
+
